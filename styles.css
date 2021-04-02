@@ -1,0 +1,33 @@
+.circle {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+.container {
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  background-color: yellow;
+  border-radius: 600px;
+}
+.eye {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.left-eye {
+  top: 25%;
+  left: 25%;
+}
+.right-eye {
+  top: 25%;
+  left: 70%;
+}
+.lip {
+  top: 70%;
+  left: 50%;
+  border-radius: 200px;
+}
